@@ -29,3 +29,13 @@ Full-stack learning platform (Flask + MongoDB + React) upgraded from demo to pro
 ## Key docs
 - `docs/architecture.md`
 - `docs/day_detail_view_example.md`
+
+
+## Quick run (Windows/Linux)
+
+Detailed instructions are available in `docs/run_windows_linux.md`.
+
+One-time scripts:
+- Linux: `./scripts/run_app_linux.sh`
+- Windows (PowerShell): `powershell -ExecutionPolicy Bypass -File .\scripts\run_app_windows.ps1`
+- Docker: `./scripts/run_app_docker.sh`
