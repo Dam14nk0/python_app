@@ -1,0 +1,2 @@
+class SubmissionsRepository:
+    collection = "submissions"

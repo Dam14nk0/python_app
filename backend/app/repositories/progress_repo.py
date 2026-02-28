@@ -1,0 +1,2 @@
+class ProgressRepository:
+    collection = "progress"
