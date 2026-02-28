@@ -1,0 +1,2 @@
+class LessonsRepository:
+    collection = "lessons"

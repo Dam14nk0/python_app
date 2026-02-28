@@ -1,0 +1,2 @@
+class CoursesRepository:
+    collection = "courses"
