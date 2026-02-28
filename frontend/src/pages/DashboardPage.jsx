@@ -36,7 +36,6 @@ export default function DashboardPage({
           <select value={language} onChange={(e) => onLanguageChange(e.target.value)}>
             <option value="en">EN</option>
             <option value="sk">SK</option>
-            <option value="cz">CZ</option>
           </select>
           <button className={`btn ${mode === "study" ? "primary" : "secondary"}`} onClick={() => onModeChange("study")}>{labels.modeStudy}</button>
           <button className={`btn ${mode === "real-world" ? "primary" : "secondary"}`} onClick={() => onModeChange("real-world")}>{labels.modeRealWorld}</button>

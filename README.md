@@ -33,9 +33,19 @@ Full-stack learning platform (Flask + MongoDB + React) upgraded from demo to pro
 
 ## Quick run (Windows/Linux)
 
-Detailed instructions are available in `docs/run_windows_linux.md`.
+Detailed installation + troubleshooting guide is available in `docs/run_windows_linux.md`.
 
 One-time scripts:
 - Linux: `./scripts/run_app_linux.sh`
 - Windows (PowerShell): `powershell -ExecutionPolicy Bypass -File .\scripts\run_app_windows.ps1`
 - Docker: `./scripts/run_app_docker.sh`
+
+
+## Kali/Linux one-command start
+
+Use:
+```bash
+./scripts/run_app_linux.sh
+```
+
+The script checks dependencies, asks to install missing packages, runs seed/tests, and starts backend+frontend.

@@ -27,17 +27,6 @@ const copy = {
     intro: "Lekcia pre úplných začiatočníkov s dôrazom na bezpečné cykly a ošetrenie chýb.",
     rwScenario: "Scenár: SOC stážista spracúva zoznam hostov pred nočným scanom.",
   },
-  cz: {
-    pageDashboard: "Dashboard",
-    pageSkillTree: "Strom dovedností",
-    pageAchievements: "Úspěchy",
-    pageKaliWorkspace: "Kali Workspace",
-    modeStudy: "Studijní režim",
-    modeRealWorld: "Reálný režim",
-    lessonTitle: "Proč existují cykly a jak je používat bezpečně",
-    intro: "Lekce pro úplné začátečníky se zaměřením na bezpečné cykly a ošetření chyb.",
-    rwScenario: "Scénář: SOC stážista zpracovává seznam hostů před nočním scanem.",
-  },
 };
 
 const courseOptions = [
