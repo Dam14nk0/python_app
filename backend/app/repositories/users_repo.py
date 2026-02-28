@@ -1,0 +1,2 @@
+class UsersRepository:
+    collection = "users"
